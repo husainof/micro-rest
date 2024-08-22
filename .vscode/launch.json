@@ -5,6 +5,14 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Отладчик Python: Текущий файл с аргументами",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "test_task/main.py",
+      "console": "integratedTerminal",
+      "args": "test_task/config test_task/text"
+    },
+    {
       "name": "Launch file",
       "type": "go",
       "request": "launch",

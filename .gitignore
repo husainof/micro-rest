@@ -1,2 +1,4 @@
 micro
 .vscode
+go.sum
+cmd/logs
